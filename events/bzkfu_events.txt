@@ -5,7 +5,6 @@ country_event = {
 	title = bzkfu.1.a
 	desc = bzkfu.1.b
 	picture = GFX_report_event_JAP_warning
-	fire_only_once = yes
 
 	 trigger = {
 OR = {
@@ -24,12 +23,11 @@ OR = {
         tag = HUN
         tag = ROM
 }
-        date > 1942.1.1
+        date > 1942.2.2
     }
 
 	option = {
 		name = bzkfu.1.a
 		add_ideas = JAP_bzkfu
 	}
-	mean_time_to_happen = { days = 2230 }
 }
