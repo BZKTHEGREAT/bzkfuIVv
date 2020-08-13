@@ -697,7 +697,7 @@ focus_tree = {
 	focus = {
 		id = USA_wartime_industry
 		icon = GFX_prepare_industry
-		cost = 10
+		cost = 5
 		prerequisite = {
 			focus = USA_the_giant_wakes
 		}
@@ -729,7 +729,7 @@ focus_tree = {
 					democratic > 0.95
 				}
 			completion_reward = {
-					add_ideas = wartime_industry_focus
+					add_ideas = ENG_prepare_for_the_inevitable_idea
 					add_tech_bonus = {
 							bonus = 1.5
 							ahead_reduction = 2

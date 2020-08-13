@@ -596,7 +596,6 @@ focus_tree = {
 			available_if_capitulated = yes
 			completion_reward = {
 					add_political_power = 70
-					remove_unit_leader = 402
 					add_ideas = SOV_collectivist_propaganda
 					if = {
 				limit = {
@@ -644,18 +643,7 @@ focus_tree = {
 					show_ideas_tooltip = vasily_petushenko
 					show_ideas_tooltip = Andrey_smirnov
 					hidden_effect = {
-							remove_unit_leader = 401
-							create_field_marshal = {
-									name = "Mikhail Tukhachevsky"
-									id = 401
-									picture = "Portrait_Soviet_Mikhail_Tukhachevsky.dds"
-									traits = { armor_officer     trait_engineer  panzer_leader  media_personality  war_hero  organizer  logistics_wizard  thorough_planner     }
-									skill = 5
-									attack_skill = 6
-									defense_skill = 4
-									planning_skill = 5
-									logistics_skill = 5
-								}
+
 						}
 				}
 

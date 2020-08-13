@@ -41,15 +41,100 @@ focus_tree = {
 
 				relative_position_id = BRA_italy_ww2
 
-		cost = 10000
+		cost = 109.3
 
 
 
 
 		available_if_capitulated = yes
 
-		completion_reward = {
-			add_political_power = -5000
-		}
+			completion_reward = {
+					GER = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										JAP = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										ITA = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										FRA = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										ENG = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										SPR = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										SOV = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										CAN = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										SAF = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										AST = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										RAJ = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										HUN = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										ROM = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
+										USA = { 
+						add_timed_idea = {
+											idea = JAP_bzkfu
+											days = 999
+										}
+										}
 	}
+	
+	
+}
 }
