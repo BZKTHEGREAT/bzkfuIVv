@@ -942,7 +942,7 @@ picture = mitsumasa
 		designer = yes
 
 		kure_naval_arsenal = {
-		cost = 25
+		cost = 0
 
 			allowed = {
 				original_tag = JAP
@@ -957,7 +957,7 @@ picture = mitsumasa
 		}
 
 		yokosuka_naval_arsenal = {
-		cost = 25
+		cost = 0
 			allowed = {
 				original_tag = JAP
 			}
@@ -974,7 +974,7 @@ picture = mitsumasa
 		}
 
 		maizuru_naval_arsenal = {
-		cost = 25
+		cost = 0
 			allowed = {
 				original_tag = JAP
 			}
@@ -991,7 +991,7 @@ picture = mitsumasa
 		}
 
 		sasebo_naval_arsenal = {
-		cost = 25
+		cost = 0
 			allowed = {
 				original_tag = JAP
 			}

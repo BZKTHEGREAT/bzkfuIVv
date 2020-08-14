@@ -1950,7 +1950,7 @@ ideas = {
 		designer = yes
 
 		norfolk_naval_yard = {
-		cost = 25
+		cost = 0
 
 			allowed = {
 				original_tag = USA
@@ -1968,7 +1968,7 @@ ideas = {
 			}
 		}
 		new_port_ship = {
-		cost = 25
+		cost = 0
 
 			allowed = {
 				original_tag = USA
@@ -1987,7 +1987,7 @@ ideas = {
 		}
 
 		electric_boat_company = {
-		cost = 25
+		cost = 0
 
 			allowed = {
 				original_tag = USA
@@ -2006,7 +2006,7 @@ ideas = {
 		}
 
 		brooklyn_naval_yard = {
-		cost = 25
+		cost = 0
 
 			allowed = {
 				original_tag = USA
@@ -2025,7 +2025,7 @@ ideas = {
 		}
 
 		newport_news_shipbuilding = {
-		cost = 25
+		cost = 0
 
 			allowed = {
 				original_tag = USA

@@ -1080,7 +1080,7 @@ ideas = {
 		designer = yes
 		
 		crda = {
-		cost = 25				
+		cost = 0			
 			allowed = {
 				original_tag = ITA
 			}
@@ -1093,7 +1093,7 @@ ideas = {
 		}
 		
 		ansaldo = {
-			cost = 25			
+			cost = 0			
 			allowed = {
 				original_tag = ITA
 			}
@@ -1106,7 +1106,7 @@ ideas = {
 		}
 
 		odero_terni_orlando = {
-			cost = 25		
+			cost = 0
 			allowed = {
 				original_tag = ITA
 			}

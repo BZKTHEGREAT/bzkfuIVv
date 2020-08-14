@@ -2161,7 +2161,7 @@ ideas = {
 		designer = yes
 
 		yarrow_shipbuilders = {
-		cost = 25
+		cost = 0
 			allowed = {
 				original_TAG = ENG
 			}
@@ -2174,7 +2174,7 @@ ideas = {
 
 		}
 		UKMed = {
-			cost = 25			
+			cost = 0	
 			allowed = {
 				original_tag = ENG
 			}
@@ -2187,7 +2187,7 @@ ideas = {
 		}
 
 		harland_wolff = {
-		cost = 25
+		cost = 0
 			allowed = {
 				original_TAG = ENG
 			}
@@ -2202,7 +2202,7 @@ ideas = {
 		}
 
 		cammell_laird = {
-		cost = 25
+		cost = 0
 			allowed = {
 				original_TAG = ENG
 			}
@@ -2220,7 +2220,7 @@ ideas = {
 		}
 
 		john_brown_company = {
-		cost = 25
+		cost = 0
 			allowed = {
 				original_TAG = ENG
 			}

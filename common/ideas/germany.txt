@@ -1012,7 +1012,7 @@ ideas = {
 		designer = yes
 
 		germaniawerft = {
-		cost = 25
+		cost = 0
 
 			allowed = {
 				original_tag = GER
@@ -1031,7 +1031,7 @@ ideas = {
 		}
 
 		blohm_und_voss = {
-		cost = 25
+		cost = 0
 
 			allowed = {
 				original_tag = GER
