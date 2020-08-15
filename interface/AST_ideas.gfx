@@ -1,0 +1,15 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_idea_AST_billy_hughes"
+		texturefile = "gfx/interface/ideas/AST_billy_hughes.dds"
+	}
+  SpriteType = {
+      name = "GFX_idea_AST_clive_caldwell"
+      texturefile = "gfx/interface/ideas/idea_clive_caldwell.dds"
+        }
+
+  SpriteType = {
+			name = "GFX_idea_AST_robertson"
+			texturefile = "gfx/interface/ideas/idea_AST_robertson.dds"
+      }
+	}
