@@ -388,6 +388,8 @@ ideas = {
 			}
 
 			modifier = {
+				special_forces_cap = 0.50
+				special_forces_training_time_factor = -0.10
 				guarantee_tension = -1.0
 				guarantee_cost = -0.5
 				global_building_slots_factor = 0.33

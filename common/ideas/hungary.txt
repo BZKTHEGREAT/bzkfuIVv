@@ -184,6 +184,8 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
+				special_forces_cap = 0.50
+				special_forces_training_time_factor = -0.1
 				political_power_factor = -0.25
 				consumer_goods_factor = -0.05
 				conscription = 0.02
@@ -197,6 +199,8 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
+				special_forces_cap = 0.50
+				special_forces_training_time_factor = -0.1
 				consumer_goods_factor = -0.05
 				conscription = 0.02
 				global_building_slots_factor = 0.33
@@ -209,6 +213,8 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 
 			modifier = {
+				special_forces_cap = 0.50
+				special_forces_training_time_factor = -0.1
 				consumer_goods_factor = -0.05
 				communism_drift = 0.02
 				conscription = 0.02
