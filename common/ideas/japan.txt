@@ -344,7 +344,7 @@ picture = mitsumasa
 			picture = generic_production_bonus
 
 			modifier = {
-			production_speed_industrial_complex_factor = 0.2
+			production_speed_industrial_complex_factor = 0.4
 			}
 		}
 		
