@@ -12,4 +12,24 @@ spriteTypes = {
 			name = "GFX_idea_AST_robertson"
 			texturefile = "gfx/interface/ideas/idea_AST_robertson.dds"
       }
+
+  SpriteType = {
+			name = "GFX_idea_AST_mackay"
+			texturefile = "gfx/interface/ideas/idea_AST_mackay.dds"
+      }
+
+    SpriteType = {
+  			name = "GFX_idea_AST_northcott"
+  			texturefile = "gfx/interface/ideas/idea_AST_northcott.dds"
+        }
+
+    SpriteType = {
+        name = "GFX_idea_AST_white_policy"
+        texturefile = "gfx/interface/ideas/idea_AST_white_policy.dds"
+        }
+   SpriteType = {
+       name = "GFX_idea_AST_hat"
+       texturefile = "gfx/interface/ideas/AST_hat.dds"
+       }
+
 	}
