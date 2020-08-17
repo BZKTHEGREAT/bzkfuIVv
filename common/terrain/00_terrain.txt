@@ -218,56 +218,7 @@ categories =  {
 		is_water = yes
 		sound_type = sea
 		
-		destroyer = {
-			units = {
-				attack = -3.0
-				movement = -0.8
-				defence = -0.9
-			}
-		}
-		light_cruiser = {
-			units = {
-				attack = -3.0
-				movement = -0.8
-				defence = -0.9
-			}
-		}
-		submarine = {
-			units = {
-				attack = -3.0
-				movement = -0.8
-				defence = -0.9
-			}
-		}
-		heavy_cruiser = {
-			units = {
-				attack = -3.0
-				movement = -0.8
-				defence = -0.9
-			}
-	}
-		carrier = {
-			units = {
-				attack = -3.0
-				movement = -0.8
-				defence = -0.9
-			}
-	
-			}
-			battleship = {
-			units = {
-				attack = -3.0
-				movement = -0.8
-				defence = -0.9
-			}
-			}
-			battle_cruiser = {
-			units = {
-				attack = -3.0
-				movement = -0.8
-				defence = -0.9
-			}
-			}
+		
 			}
 	
 	water_deep_ocean = {

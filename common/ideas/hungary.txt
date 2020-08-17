@@ -441,7 +441,7 @@ ideas = {
 			
 
 			
-			traits = { army_chief_offensive_2 }
+			traits = { army_chief_offensive_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -571,13 +571,12 @@ ideas = {
 				original_tag = HUN
 			}
 			
-			traits = { air_air_combat_training_2 }
+			traits = { army_infantry_3 } 
 			
 			ai_will_do = {
 				factor = 1
 			}
-		}
-
+}
 		HUN_henrik_werth = {
 			ledger = army
 
@@ -587,7 +586,7 @@ ideas = {
 				original_tag = HUN
 			}
 			
-			traits = { army_cavalry_2 }
+			traits = { army_commando_1 }
 			
 			ai_will_do = {
 				factor = 1

@@ -547,32 +547,26 @@ focus_tree = {
 
 	focus = {
 		id = SPR_Air_Officers
-		icon = GFX_goal_generic_air_doctrine
+		icon = GFX_tanks_focus_2
 		x = 15
 		y = 0
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 8
 		}
 
 		completion_reward = {
-		air_experience = 50
-			add_tech_bonus = {
-				name = SPR_Air_bonus
-				bonus = 1.0
-				uses = 1
-				category = air_doctrine
-			}
+	add_ideas = CAN_commit_to_the_war
 		}
 	}
 
 	focus = {
 		id = SPR_Air_Factories
-		icon = GFX_goal_generic_air_production
+		icon = GFX_prepare_industry
 		prerequisite = { focus = SPR_Air_Officers }
 		x = 15
 		y = 1
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 8
 		}
@@ -583,65 +577,76 @@ focus_tree = {
 
 		completion_reward = {
 			41 = {
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
-			air_experience = 50
 		}
 	}
 
 	focus = {
 		id = SPR_Fighters
-		icon = GFX_goal_generic_air_fighter2
+		icon = GFX_prepare_industry
 		prerequisite = { focus = SPR_Air_Factories }
 		x = 15
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 6
 		}
+				available = {
+			controls_state = 41
+		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = SPR_Fighters
-				bonus = 1.0
-				technology = fighter1
-				technology = fighter2
+			41 = {
+				add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+					type = arms_factory
+					level = 3
+					instant_build = yes
+				}
 			}
 		}
 	}
 
 	focus = {
 		id = SPR_CAS
-		icon = GFX_goal_generic_CAS
+		icon = GFX_focus_attack_britain
 		prerequisite = { focus = SPR_Fighters }
 		mutually_exclusive = { focus = SPR_Tac_Bomber }
 		mutually_exclusive = { focus = SPR_Strat }
 		x = 13
 		y = 3
 		cost = 10
+		available = {
+				date > 1940.1.1
+				}
 		ai_will_do = {
 			factor = 8
 		}
-
 		completion_reward = {
-			add_tech_bonus = {
-				name = SPR_CAS_Bonus
-				bonus = 1.0
-				technology = CAS1
-				technology = CAS2
-				technology = CAS3
+			GER = {
+				add_to_faction = ROOT
 			}
+			SPR = { country_event = {   id = pfu.355 }   }
+			ENG = {
+			transfer_state = 290
+			transfer_state = 178
+			transfer_state = 297
+			transfer_state = 699
+				}
+				add_ideas = USA_homeland_defense
+				add_ideas = novolunteer
 		}
 	}
 
 	focus = {
 		id = SPR_Tac_Bomber
-		icon = GFX_goal_generic_air_naval_bomber
+		icon = GFX_focus_mex_privatisation
 		prerequisite = { focus = SPR_Fighters }
 		mutually_exclusive = { focus = SPR_CAS }
 		mutually_exclusive = { focus = SPR_Strat }
@@ -653,19 +658,16 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = SPR_Tac_Bonus
-				bonus = 1.0
-				technology = tactical_bomber1
-				technology = tactical_bomber2
-				category = naval_bomber
-			}
+		add_ideas = lendlease_act
+		add_ideas = novolunteer
+		air_experience = 250
+		army_experience = 250
 		}
 	}
 
 	focus = {
 		id = SPR_Strat
-		icon = GFX_goal_generic_air_bomber
+		icon = GFX_focus_chi_mission_to_germany
 		prerequisite = { focus = SPR_Fighters }
 		mutually_exclusive = { focus = SPR_CAS }
 		mutually_exclusive = { focus = SPR_Tac_Bomber }
@@ -677,81 +679,10 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = SPR_Tac_Bonus
-				bonus = 1.0
-				technology = strategic_bomber1
-				technology = strategic_bomber2
-				 
-			}
+		add_ideas = volunteer
 		}
 	}
 
-	focus = {
-		id = SPR_Air_Doctrine
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SPR_CAS }
-		x = 13
-		y = 4
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-
-		completion_reward = {
-		air_experience = 10
-			add_tech_bonus = {
-				name = SPR_Air_bonus
-				bonus = 1.0
-				uses = 2
-				category = battlefield_support_tree
-			}
-		}
-	}
-
-	focus = {
-		id = SPR_Air_Doctrine_2
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SPR_Tac_Bomber }
-		x = 15
-		y = 4
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-
-		completion_reward = {
-		air_experience = 10
-			add_tech_bonus = {
-				name = SPR_Air_bonus_2
-				bonus = 1.0
-				uses = 2
-				category = operational_integrity_tree
-			}
-		}
-	}
-
-	focus = {
-		id = SPR_Air_Doctrine_3
-		icon = GFX_goal_generic_air_doctrine
-		prerequisite = { focus = SPR_Strat }
-		x = 17
-		y = 4
-		cost = 10
-		ai_will_do = {
-			factor = 5
-		}
-
-		completion_reward = {
-		air_experience = 10
-			add_tech_bonus = {
-				name = SPR_Air_bonus_3
-				bonus = 1.0
-				uses = 2
-				category = strategic_destruction_tree
-			}
-		}
-	}
 
 
 

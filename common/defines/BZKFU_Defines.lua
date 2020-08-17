@@ -5,6 +5,11 @@ NDefines.NGame.GAME_SPEED_SECONDS = { 2.0, 0.5, 0.2, 0.035, 0.02 }
 
 NDefines.NGraphics.COUNTRY_COLOR_BRIGHTNESS_MODIFIER = 0.82
 
+NDefines.NIntel.ARMY_INTEL_COMBAT_BONUS_MAX_BONUS = 0.0
+NDefines.NIntel.NAVAL_SUPREMACY_INTEL_LOW = 0.0		
+NDefines.NIntel.DYNAMIC_INTEL_SOURCE_EVENT_MAXIMUMS = { 200, 200, 200, 200 } --Intel from events was 40
+NDefines.NIntel.DYNAMIC_INTEL_SOURCE_EVENT_ABSOLUTE_MAXIMUMS = { 200, 200, 200, 200 } --Intel from events was 50
+
 NDefines.NOperatives.AGENCY_CREATION_FACTORIES = 9999
 NDefines.NOperatives.AGENCY_CREATION_DAYS = 9999
 NDefines.NOperatives.AGENCY_UPGRADE_DAYS = 90
@@ -36,6 +41,8 @@ NDefines.NAI.DIPLOMACY_ACCEPT_ATTACHE_OPINION_PENALTY = 0
 NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROLLED = 0
 NDefines.NAI.GIVE_STATE_CONTROL_MIN_CONTROL_DIFF = 0
 
+NDefines.NCountry.MAX_INTELLIGENCE_AIR_DATA_DEVIATION = 0.6 
+NDefines.NCountry.MAX_INTELLIGENCE_MILITARY_DATA_DEVIATION = 0.6 
 NDefines.NCountry.EVENT_PROCESS_OFFSET = 25
 NDefines.NCountry.VP_TO_SUPPLY_BASE = 2
 NDefines.NCountry.SUPPLY_PATH_MAX_DISTANCE = 8
@@ -145,7 +152,7 @@ NDefines.NAir.COMBAT_AMOUNT_DIFF_AFFECT_GANG_CHANCE = 0.4
 NDefines.NAir.COMBAT_SITUATION_WIN_CHANCE_FROM_GANG = 0.1
 NDefines.NAir.ENEMY_AIR_SUPERIORITY_IMPACT= -0.9
 NDefines.NAir.ACCIDENT_CHANCE_BASE = 0.00
-NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.12
+NDefines.NAir.COMBAT_DAMAGE_SCALE = 0.13
 NDefines.NAir.AIR_WING_MAX_SIZE = 3200
 NDefines.NAir.AIR_DEPLOYMENT_DAYS = 0                              -- Down from 3 | Makes AC player much more responsive
 NDefines.NAir.ACE_WING_SIZE_MAX_BONUS = 10
@@ -206,7 +213,7 @@ NDefines.NNavy.SUBMARINE_REVEALED_TIMEOUT = 24						-- Amount of in-game-hours t
 
 	NDefines.NNavy.BASE_GUN_COOLDOWNS = { -- number of hours for a gun to be ready after shooting
 		1.5,	-- big guns
-		24.0,	-- torpedos
+		6.0,	-- torpedos
 		3.0	-- small guns	
 		}
 		

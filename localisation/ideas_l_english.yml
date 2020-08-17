@@ -2664,4 +2664,7 @@ ATTACHE_LIST:0 "We received military attachés from $LIST$. And they give us the
  German_pilot_voluntiers:0 "German Pilot Volunteers"
  red_army:0 "Red Army"
  GER_trade_idea:0 "Slave Labour"
+ novolunteer:0 "Volunteers Denied"
+ volunteer:0 "Volunteer Corps"
+ lendlease_act:0 "Lendlease Act"
  
