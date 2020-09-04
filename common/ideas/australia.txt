@@ -965,7 +965,7 @@ ai_will_do = {
 }
 }
 army_chief = {
-	use_list_view = yes
+
 
 		AST_john_lavarack = {
 
