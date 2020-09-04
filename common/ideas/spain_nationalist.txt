@@ -22,7 +22,84 @@ ideas = {
 				stability_factor = -0.35
 			}
 		}
+					lendlease_act = {
 
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			picture = GFX_idea_window
+
+			removal_cost = -1
+
+			equipment_bonus = {
+			medium_tank_equipment = 
+			
+			{
+			build_cost_ic = -0.05
+			  instant = yes
+			}
+			 
+			}
+			equipment_bonus = {
+			fighter_equipment = 
+			
+			{
+			build_cost_ic = -0.05
+			  instant = yes
+			}
+			 
+			}
+			}
+			
+		volunteer = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_volunteer_expedition_bonus
+
+			rule = {
+				can_send_volunteers = yes
+			}
+
+			modifier = {
+				send_volunteer_size = 40
+				send_volunteers_tension = -0.5
+				send_volunteer_divisions_required = -1
+			}
+		}
+				novolunteer = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_volunteer_expedition_bonus
+
+
+			modifier = {
+				send_volunteer_size = -16
+			}
+		}
+			
 		SPR_Conv = {
 
 			picture = FRA_factory_strikes

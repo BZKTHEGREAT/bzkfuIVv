@@ -2734,7 +2734,7 @@ focus_tree = {
 					46 = {
 							add_resource = {
 									type = oil
-									amount = 60
+									amount = 110
 								}
 								add_resource = {
 									type = rubber

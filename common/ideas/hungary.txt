@@ -184,6 +184,8 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
+				special_forces_cap = 0.50
+				special_forces_training_time_factor = -0.1
 				political_power_factor = -0.25
 				consumer_goods_factor = -0.05
 				conscription = 0.02
@@ -197,6 +199,8 @@ ideas = {
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
+				special_forces_cap = 0.50
+				special_forces_training_time_factor = -0.1
 				consumer_goods_factor = -0.05
 				conscription = 0.02
 				global_building_slots_factor = 0.33
@@ -209,6 +213,8 @@ ideas = {
 			picture = FRA_scw_intervention_nationalists_focus
 
 			modifier = {
+				special_forces_cap = 0.50
+				special_forces_training_time_factor = -0.1
 				consumer_goods_factor = -0.05
 				communism_drift = 0.02
 				conscription = 0.02
@@ -435,7 +441,7 @@ ideas = {
 			
 
 			
-			traits = { army_chief_offensive_2 }
+			traits = { army_chief_offensive_3 }
 			
 			ai_will_do = {
 				factor = 1
@@ -565,13 +571,12 @@ ideas = {
 				original_tag = HUN
 			}
 			
-			traits = { air_air_combat_training_2 }
+			traits = { army_infantry_3 } 
 			
 			ai_will_do = {
 				factor = 1
 			}
-		}
-
+}
 		HUN_henrik_werth = {
 			ledger = army
 
@@ -581,7 +586,7 @@ ideas = {
 				original_tag = HUN
 			}
 			
-			traits = { army_cavalry_2 }
+			traits = { army_commando_1 }
 			
 			ai_will_do = {
 				factor = 1

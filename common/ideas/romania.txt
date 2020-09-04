@@ -388,6 +388,8 @@ ideas = {
 			}
 
 			modifier = {
+				special_forces_cap = 0.50
+				special_forces_training_time_factor = -0.10
 				guarantee_tension = -1.0
 				guarantee_cost = -0.5
 				global_building_slots_factor = 0.33
@@ -803,7 +805,7 @@ ideas = {
 
 
 
-			traits = { army_chief_offensive_2 }
+			traits = { army_chief_offensive_3 }
 
 			ai_will_do = {
 				factor = 1
@@ -918,7 +920,7 @@ ideas = {
 
 			picture = generic_army_europe_3
 
-			traits = { army_commando_2 }
+			traits = { army_commando_1 }
 
 			ai_will_do = {
 				factor = 1

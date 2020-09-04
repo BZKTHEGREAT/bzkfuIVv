@@ -885,7 +885,7 @@ high_command = {
 			original_tag = AST
 		}
 
-		traits = { army_artillery_2 }
+		traits = { army_commando_2 }
 
 		ai_will_do = {
 			factor = 1
@@ -965,6 +965,7 @@ ai_will_do = {
 }
 }
 army_chief = {
+	use_list_view = yes
 
 		AST_john_lavarack = {
 
@@ -1026,7 +1027,7 @@ army_chief = {
 
   cost = 50
 
-	traits = { army_chief_planning_2 army_chief_offensive_2 }
+	traits = { army_chief_morale_2 army_chief_offensive_2 }
 
 	ai_will_do = {
 		factor = 1

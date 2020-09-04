@@ -1825,7 +1825,7 @@ technologies = {
 		}
 		
 		#planning max bonus increase
-		max_planning = 0.30
+		max_planning = 0.10
 
 		doctrine = yes	
 		research_cost = 2.5

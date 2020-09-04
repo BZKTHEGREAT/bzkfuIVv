@@ -281,7 +281,7 @@ country_event = {
 
 	option = {
 		name = pfu.20.a
-		add_timed_idea = { idea = finest_hour days = 999 }
+		add_timed_idea = { idea = finest_hour days = 420 }
 	}
 	mean_time_to_happen = { days = 0 }
 }
@@ -465,6 +465,46 @@ country_event = {
 	option = {
 		name = pfu.35.a
 		ITA = {
+				declare_war_on = {
+					target = FRA
+					type = annex_everything
+				}
+				declare_war_on = {
+					target = ENG
+					type = annex_everything
+				}
+								declare_war_on = {
+					target = SAF
+					type = annex_everything
+				}
+								declare_war_on = {
+					target = AST
+					type = annex_everything
+				}
+								declare_war_on = {
+					target = RAJ
+					type = annex_everything
+				}
+								declare_war_on = {
+					target = CAN
+					type = annex_everything
+				}
+		}
+	}
+}
+country_event = {
+	id = pfu.355
+	title = pfu.355.t
+	desc = pfu.355.d
+	picture = GFX_report_event_plan_vert
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = pfu.355.a
+		SPR = {
 				declare_war_on = {
 					target = FRA
 					type = annex_everything
