@@ -32,4 +32,14 @@ spriteTypes = {
        texturefile = "gfx/interface/ideas/AST_hat.dds"
        }
 
+       SpriteType = {
+           name = "GFX_idea_AST_battle"
+           texturefile = "gfx/interface/ideas/AST_battle.dds"
+           }
+
+           SpriteType = {
+   				name = "GFX_idea_AST_blamey"
+   				texturefile = "gfx/interface/ideas/idea_AST_blamey.dds"
+   						}       
+
 	}
