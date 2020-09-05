@@ -8,7 +8,7 @@ focus_tree = {
 		}
 	}
 	default = no
-	
+
 	focus = {
 		id = test_the_ussr_focus
 		icon = GFX_focus_jap_colony
@@ -65,7 +65,7 @@ focus_tree = {
 									instant_build = yes
 								}
 						}
-				
+
 				}
 
 	}
@@ -249,7 +249,7 @@ focus_tree = {
 									remove_naval_treaty_effect = yes
 								}
 							clr_global_flag = MTG_naval_treaty_signatories
-			
+
 						}
 					if = {
 							limit = {
@@ -278,7 +278,7 @@ focus_tree = {
 													has_idea = MTG_naval_treaty_adherent
 												}
 										}
-									activate_mission = MTG_escalator_clause_invocation_mission
+					#				activate_mission = MTG_escalator_clause_invocation_mission
 									custom_effect_tooltip = MTG_escalator_clause_tt
 								}
 						}
@@ -428,8 +428,8 @@ focus_tree = {
 					air_experience = 50
 					custom_effect_tooltip = JAP_the_zero_tt
 			         hidden_effect = { set_technology = { cv_fighter2 = 1 } }
-					 
-					 
+
+
 					add_tech_bonus = {
 							name = fighter_bonus
 							ahead_reduction = 2
@@ -449,7 +449,7 @@ focus_tree = {
 							uses = 1
 							technology = naval_bomber2
 						}
-					
+
 				}
 
 	}
@@ -1038,7 +1038,7 @@ focus_tree = {
 		y = 2
 			completion_reward = {
 					set_technology = {
-							tac_bomber2 = 1
+							tactical_bomber1 = 1
 						}
 					add_equipment_to_stockpile = {
 							type = tac_bomber_equipment_2
@@ -2019,13 +2019,13 @@ focus_tree = {
 									type = annex_everything
 								}
 						}
-				
-				
-				
-				
-				
+
+
+
+
+
 				}
-				
+
 }
 
 	focus = {
